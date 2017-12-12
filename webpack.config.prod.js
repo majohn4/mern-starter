@@ -10,7 +10,7 @@ var cssnano = require('cssnano');
 module.exports = {
   devtool: 'hidden-source-map',
 
-  entry: ['babel-polyfill', __dirname + "/client/index.js"] ,
+ entry: ['babel-polyfill', __dirname + "/client/index.js"] ,
     app: [
       './client/index.js',
     ],
