@@ -7,7 +7,6 @@
     "watch:test": "npm run test -- --watch",
     "cover": "nyc npm run test",
     "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
-    //"start": "cross-env BABEL_DISABLE_CACHE=1 NODE_ENV=development nodemon index.js",
     "start": "cross-env NODE_ENV=production MONGO_URL=yourMongoURL node index.js",
     "start:prod": "cross-env NODE_ENV=production node index.js",
     "bs": "npm run clean && npm run build && npm run build:server && npm run start:prod",
@@ -110,7 +109,7 @@
     "webpack-hot-middleware": "^2.10.0",
     "webpack-manifest-plugin": "^1.0.1"
   },
-  //"devDependencies": {},
+  "devDependencies": {},
   "engines": {
     "node": ">=4"
   },
